@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500;700&family=Poppins:wght@700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+$ctaColor: #4d61fc;
+$backgroundColor: #e9f1ff;
+$darkCtaColor: #0000ff;
+$blueTxt: #5f71fc;
+$lightPurple: #6167d6;
+$white: #f6f6f6;
+
+#logo {
+    font-family: 'Hepta Slab', serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}

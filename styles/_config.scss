@@ -12,12 +12,15 @@ $darkCtaColor: #0000ff;
 $blueTxt: #5f71fc;
 $lightPurple: #6167d6;
 $white: #f6f6f6;
+$black: #222;
 
 #logo {
-    font-family: 'Hepta Slab', serif;
+    // font-family: 'Hepta Slab', serif;
+    font-size: 82px;
+    color: lightcoral;
 }
 
 a {
-    color: #000;
+    color: #737373;
     text-decoration: none;
 }

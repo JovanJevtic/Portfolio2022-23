@@ -27,7 +27,7 @@ body {
 
                 #logo {
                     font-weight: bold;
-                    font-size: 20px;
+                    font-size: 24px;
                 }
             }
 
@@ -50,17 +50,43 @@ body {
 
         #landing-heading {
             margin-left: 20%;
-            font-size: 52px;
-            font-weight: 700;
-            margin-top: 15vh;
-            text-shadow: 1px 2px 3px rgba(0,0,0,0.5);
+            font-size: 62px;
+            font-weight: bold;
+            margin-top: 20vh;
+            // text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            line-height: 88px;
+            max-width: 74%;
+            color: $black;
+        }
+
+        #landing-heading-bg {
+            color: $white;
+            background-color: $lightPurple;
+            margin-right: 10px;
+            padding-left: 10px;
+            opacity: .9;
+            // text-decoration: underline;
+            text-decoration-color: lightcoral;
+        }
+
+        #landing-heading-un {
+            // background-color: lightcoral;
+            color: $black;
+            margin-right: 5px;
+            padding-left: 10px;
+            text-decoration: underline;
+            // text-decoration-color: $ctaColor;
+            background: -webkit-linear-gradient(45deg, lightcoral, $ctaColor);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         #landing-subheading {
             margin-left: 20%;
-            margin-top: 5%;
-            max-width: 70%;
-            color: rgb(79, 78, 78);
+            margin-top: 2%;
+            max-width: 64%;
+            line-height: 30px;
+            color: #737373;
         }
 
         a {
@@ -69,7 +95,7 @@ body {
 
         #landing-cta {
             height: 65px;
-            width: 280px;
+            width: 300px;
             background: $ctaColor;
             margin-left: 20%;
             margin-top: 10%;
@@ -83,7 +109,7 @@ body {
             transition: .4s;
 
             &:hover {
-                transform: translateY(-3px);
+                transform: translateY(-2px);
                 background: #344bfc;
             }
         }
@@ -94,6 +120,12 @@ body {
             margin-top: 15%;
             display: block;
             max-width: 150px;
+            opacity: .7;
+            transition: .4s;
+
+            &:hover {
+                opacity: 1;
+            }
         }
     }
 

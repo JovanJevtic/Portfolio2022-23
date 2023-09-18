@@ -72,9 +72,9 @@ body {
 
 #landing-subheading {
   line-height: 30px;
-  color: #777777;
+  color: #333;
   text-align: center;
-  width: 50%;
+  width: 45%;
   z-index: 10;
 }
 

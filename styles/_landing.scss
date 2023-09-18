@@ -3,7 +3,7 @@ body {
 }
 
 #landing-bg {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     position: absolute;
 
@@ -16,7 +16,7 @@ body {
 }
 
 #landing {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     // background: $backgroundColor;
     // background: -webkit-linear-gradient(0deg, #fff, $backgroundColor);
@@ -68,7 +68,7 @@ body {
     text-align: center;
     width: 40%;
     z-index: 10;
-    display: none;
+    // display: none;
 }
 
 a {
@@ -128,7 +128,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 #landing-subheading-wrapp {
@@ -137,7 +137,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 6.5vh;
-    display: none;
+    // display: none;
 }
 
 #landing-cta-wrapp {
@@ -145,7 +145,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    // margin-top: 10vh;
 }
 
 #landing-bottom-link-wrapp {

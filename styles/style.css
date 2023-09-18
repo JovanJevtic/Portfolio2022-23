@@ -19,7 +19,7 @@ body {
 }
 
 #landing-bg {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   position: absolute;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 #landing {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -76,7 +76,6 @@ body {
   text-align: center;
   width: 40%;
   z-index: 10;
-  display: none;
 }
 
 a {
@@ -154,7 +153,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
 #landing-subheading-wrapp {
@@ -167,7 +166,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 6.5vh;
-  display: none;
 }
 
 #landing-cta-wrapp {
@@ -179,7 +177,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10vh;
 }
 
 #landing-bottom-link-wrapp {
@@ -261,7 +258,6 @@ header #header-container #header-list-wrapp #header-list {
 #about {
   height: 100vh;
   width: 100%;
-  background: #eee;
 }
 
 .container {

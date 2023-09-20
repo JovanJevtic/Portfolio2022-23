@@ -38,9 +38,9 @@ body {
 }
 
 #landing-heading {
-  font-size: 68px;
+  font-size: 72px;
   font-weight: bold;
-  line-height: 98px;
+  line-height: 90px;
   max-width: 84%;
   color: #222;
   text-align: center;
@@ -48,11 +48,8 @@ body {
 }
 
 #landing-heading-bg {
-  color: #f6f6f6;
-  background-color: #6167d6;
   margin-right: 10px;
   padding-left: 10px;
-  text-decoration: underline;
   z-index: 10;
   -webkit-text-decoration-color: #f6f6f6;
           text-decoration-color: #f6f6f6;
@@ -64,7 +61,7 @@ body {
   padding-left: 10px;
   -webkit-text-decoration-color: #6167d6;
           text-decoration-color: #6167d6;
-  background: -webkit-linear-gradient(45deg, lightcoral, #4d61fc);
+  background: -webkit-linear-gradient(45deg, #f08080, #4d61fc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 10;
@@ -84,7 +81,7 @@ a {
 
 #landing-cta {
   height: 70px;
-  width: 340px;
+  width: 380px;
   background: #4d61fc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,6 +100,7 @@ a {
   -webkit-transition: .4s;
   transition: .4s;
   z-index: 10;
+  font-size: 18px;
 }
 
 #landing-cta:hover {
@@ -157,7 +155,7 @@ a {
 }
 
 #landing-subheading-wrapp {
-  height: 15vh;
+  height: 10vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,6 +175,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 3vh;
 }
 
 #landing-bottom-link-wrapp {
@@ -259,7 +258,6 @@ header #header-container #header-list-wrapp #header-list {
 #about {
   height: 100vh;
   width: 100%;
-  background-color: #0000ff;
 }
 
 .container {

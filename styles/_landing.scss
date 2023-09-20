@@ -8,6 +8,7 @@ body {
     position: absolute;
 
     img {
+        // opacity: .19;
       height: 100%;
       width: 100%;  
       position: absolute;
@@ -24,11 +25,11 @@ body {
 }
 
 #landing-heading {
-    font-size: 68px;
+    font-size: 72px;
     font-weight: bold;
     // margin-top: 20vh;
     // text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    line-height: 98px;
+    line-height: 90px;
     max-width: 84%;
     color: $black;
     text-align: center;
@@ -36,12 +37,12 @@ body {
 }
 
 #landing-heading-bg {
-    color: $white;
-    background-color: $lightPurple;
+    // color: $white;
+    // background-color: $lightPurple;
     margin-right: 10px;
     padding-left: 10px;
     // opacity: .7;
-    text-decoration: underline;
+    // text-decoration: underline;
     z-index: 10;
     text-decoration-color: $white;
 }
@@ -53,7 +54,7 @@ body {
     padding-left: 10px;
     // text-decoration: underline;
     text-decoration-color: $lightPurple;
-    background: -webkit-linear-gradient(45deg, lightcoral, $ctaColor);
+    background: -webkit-linear-gradient(45deg, #f08080, $ctaColor);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 10;
@@ -77,7 +78,7 @@ a {
 
 #landing-cta {
     height: 70px;
-    width: 340px;
+    width: 380px;
     background: $ctaColor;
     display: flex;
     justify-content: center;
@@ -88,7 +89,11 @@ a {
     box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
     transition: .4s;
     z-index: 10;
-
+    // background: -webkit-linear-gradient(300deg, $ctaColor, #f08080);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    
     &:hover {
         transform: translateY(-2px);
         background: #344bfc;
@@ -132,7 +137,7 @@ a {
 }
 
 #landing-subheading-wrapp {
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -146,6 +151,7 @@ a {
     display: flex;
     justify-content: center;
     // margin-top: 10vh;
+    margin-top: 3vh;
 }
 
 #landing-bottom-link-wrapp {

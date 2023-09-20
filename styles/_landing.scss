@@ -135,7 +135,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 17vh;
+    margin-top: 18vh;
 }
 
 #landing-subheading-wrapp {
@@ -143,7 +143,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 6.5vh;
+    margin-top: 7vh;
     // display: none;
 }
 
@@ -203,5 +203,44 @@ a {
     height: 5px;
     width: 5px;
     border-radius: 50%;
-    background: #333;
+    background: #ddd;
+}
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+  bottom: 5vh;
+}
+
+.icon-scroll {
+  width: 40px;
+  height: 60px;
+  margin-left: -20px;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px #737373;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: $lightPurple;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  } 
+  100% {
+    opacity: 0;
+    transform: translateY(36px);
+  }
 }

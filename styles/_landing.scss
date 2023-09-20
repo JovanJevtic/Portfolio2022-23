@@ -25,15 +25,16 @@ body {
 }
 
 #landing-heading {
-    font-size: 72px;
+    font-size: 80px;
     font-weight: bold;
     // margin-top: 20vh;
     // text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    line-height: 90px;
-    max-width: 84%;
+    line-height: 100px;
+    max-width: 100%;
     color: $black;
     text-align: center;
     z-index: 10;
+    // text-transform: uppercase;
 }
 
 #landing-heading-bg {
@@ -58,6 +59,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 10;
+    // text-transform: uppercase;
 }
 
 #landing-subheading {
@@ -133,7 +135,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 17vh;
 }
 
 #landing-subheading-wrapp {
@@ -159,4 +161,47 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#landing-code {
+    position: absolute;
+    font-size: 440px;
+    line-height: 320px;
+    bottom: 0vh;
+    right: 0vh;
+    font-weight: bold;
+    opacity: .018;
+}
+
+#landing-code2 {
+    position: absolute;
+    font-size: 440px;
+    line-height: 300px;
+    top: 12vh;
+    left: 0vh;
+    font-weight: bold;
+    opacity: .018;
+}
+
+#landing-dots-wrapp {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 70vh;
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-dots-column {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing-dot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #333;
 }

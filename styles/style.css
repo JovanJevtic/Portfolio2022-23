@@ -38,11 +38,11 @@ body {
 }
 
 #landing-heading {
-  font-size: 72px;
+  font-size: 80px;
   font-weight: bold;
-  line-height: 90px;
-  max-width: 84%;
-  color: #222;
+  line-height: 100px;
+  max-width: 100%;
+  color: #111;
   text-align: center;
   z-index: 10;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .landing-heading-un {
-  color: #222;
+  color: #111;
   margin-right: 5px;
   padding-left: 10px;
   -webkit-text-decoration-color: #6167d6;
@@ -151,7 +151,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20vh;
+  margin-top: 17vh;
 }
 
 #landing-subheading-wrapp {
@@ -189,6 +189,59 @@ a {
           justify-content: center;
 }
 
+#landing-code {
+  position: absolute;
+  font-size: 440px;
+  line-height: 320px;
+  bottom: 0vh;
+  right: 0vh;
+  font-weight: bold;
+  opacity: .018;
+}
+
+#landing-code2 {
+  position: absolute;
+  font-size: 440px;
+  line-height: 300px;
+  top: 12vh;
+  left: 0vh;
+  font-weight: bold;
+  opacity: .018;
+}
+
+#landing-dots-wrapp {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 70vh;
+  left: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landing-dots-column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing-dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #333;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -220,7 +273,7 @@ header #header-container #header-logo-wrapp {
 header #header-container #header-logo-wrapp #logo {
   font-size: 20px;
   font-weight: bold;
-  color: #222;
+  color: #111;
 }
 
 header #header-container #header-list-wrapp {

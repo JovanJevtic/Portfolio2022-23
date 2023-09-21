@@ -12,9 +12,11 @@ const translateOptions = () => {
     btn.addEventListener(('click'), () => {
         if (options.style.display === "flex") {
             options.style.display = "none"
+            btn.style.backgroundColor = "#fafafa"
+
         } else {
             options.style.display = "flex"
-
+            btn.style.backgroundColor = "#f1f1f1"
         }
     })
 }

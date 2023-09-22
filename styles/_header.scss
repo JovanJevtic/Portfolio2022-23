@@ -135,3 +135,22 @@ header {
         }
     }
 }
+
+#header-a-btn {
+
+    a {
+        border: 1px solid $ctaColor;
+        background: $ctaColor;
+        color: $white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        transition: .4s;
+
+        &:hover {
+            background: $darkCtaColor;
+        }
+    }
+}

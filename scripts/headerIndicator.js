@@ -21,9 +21,20 @@ const translateOptions = () => {
     })
 }
 
+const iconScroll = () => {
+    const icon = document.getElementsByClassName('icon-scroll')[0];
+    icon.addEventListener(('click'), () => {
+        window.scrollTo({
+            behavior: 'smooth',
+            top: 130,
+        })
+    });
+}
+
 const headerIndicator = () => {
     window.onscroll = function() {headerIndicatorFn()};
     translateOptions()
+    iconScroll()
 }
 
 export default headerIndicator;

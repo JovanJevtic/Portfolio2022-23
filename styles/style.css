@@ -186,7 +186,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 7vh;
+  margin-top: 6vh;
 }
 
 #landing-cta-wrapp {
@@ -277,7 +277,7 @@ a {
 
 .icon-scroll {
   width: 30px;
-  height: 45px;
+  height: 50px;
   margin-left: -15px;
   margin-top: -22.5px;
   -webkit-box-shadow: inset 0 0 0 1px #333;
@@ -308,8 +308,8 @@ a {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 
@@ -319,8 +319,8 @@ a {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 
@@ -416,7 +416,7 @@ header #header-container #header-list-wrapp {
 }
 
 header #header-container #header-list-wrapp #header-list {
-  width: 80%;
+  width: 90%;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,7 +475,7 @@ header #header-container #header-list-wrapp #header-list {
 }
 
 #translate-icon-wrapp p {
-  font-weight: 600;
+  color: #737373;
 }
 
 #translate-options-wrapp {
@@ -552,10 +552,10 @@ header #header-container #header-list-wrapp #header-list {
   border: 1px solid #4d61fc;
   background: #4d61fc;
   color: #f6f6f6;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   border-radius: 5px;
   -webkit-transition: .4s;
   transition: .4s;

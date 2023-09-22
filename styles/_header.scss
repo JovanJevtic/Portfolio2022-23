@@ -29,7 +29,7 @@ header {
             justify-content: flex-end;
 
             #header-list {
-                width: 80%;
+                width: 90%;
                 list-style: none;
                 display: flex;
                 align-items: center;
@@ -83,7 +83,8 @@ header {
     }
     
     p {
-        font-weight: 600;
+        // font-weight: 600;
+        color: #737373;
     }
 }
 
@@ -142,10 +143,10 @@ header {
         border: 1px solid $ctaColor;
         background: $ctaColor;
         color: $white;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 7px;
+        padding-bottom: 7px;
         border-radius: 5px;
         transition: .4s;
 
